@@ -6,7 +6,7 @@
         "email": "dev@bewhy.org"
     }],
     "type": "library",
-    "license": "Public domain",
+    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-4": {
