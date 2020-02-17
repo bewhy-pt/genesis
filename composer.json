@@ -1,0 +1,16 @@
+{
+    "name": "bewhy/genesis",
+    "description": "If Laravel 6.x starting point had a full extra-stack and where more like CMS-Shop",
+    "authors": [{
+        "name": "Carlos Jesus",
+        "email": "dev@bewhy.org"
+    }],
+    "type": "library",
+    "license": "Public domain",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BeWhy\\Genesis\\": "src/"
+        }
+    }
+}
