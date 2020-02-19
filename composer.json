@@ -1,16 +1,43 @@
 {
     "name": "bewhy/genesis",
-    "description": "If Laravel 6.x starting point had a full extra-stack and where more like CMS-Shop",
+    "description": "If Laravel 6.x starting point had a full extra-stack and was a CMS-Shop alike",
     "authors": [{
-        "name": "Carlos Jesus",
-        "email": "dev@bewhy.org"
+        "name": "WannaBe",
+        "email": "dev@bewhy.org",
+        "homepage": "https://bewhy.org/genesis",
+        "role": "Idiot In Chief"
     }],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "type": "library",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "php": "^7.2",
+        "intervention/image": "^2.5",
+        "arcanedev/localization": "^6.2",
+        "laravelcollective/html": "^6.0",
+        "spatie/laravel-activitylog": "^3.9",
+        "spatie/laravel-permission": "^3.3"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-ide-helper": "^2.6"
+    },
     "autoload": {
         "psr-4": {
             "BeWhy\\Genesis\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BeWhy\\Genesis\\GenesisServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
         }
     }
 }
