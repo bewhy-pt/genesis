@@ -1,17 +1,19 @@
 @yield('errors')
-
-@if (count($errors) > 0)
-    <div class="col-12">
-        <div class="alert alert-icon alert-danger alert-dismissible" role="alert">
-            <button type="button" class="close" data-dismiss="alert"></button>
-            <i class="fe fe-alert-triangle" aria-hidden="true"></i> <b>Erro !!!</b>&nbsp;&nbsp;Valide:
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{!!  $error !!} </li>
-                @endforeach
-            </ul>
+{{-- De reprente começou a estrilhar com isto--}}
+@if ($errors ?? '')
+    @if (count($errors) > 0)
+        <div class="col-12">
+            <div class="alert alert-icon alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert"></button>
+                <i class="fe fe-alert-triangle" aria-hidden="true"></i> <b>Erro !!!</b>&nbsp;&nbsp;Valide:
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{!!  $error !!} </li>
+                    @endforeach
+                </ul>
+            </div>
         </div>
-    </div>
+@endif
 @endif
 @if(session('success'))
     <div class="col-12">

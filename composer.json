@@ -19,7 +19,9 @@
         "arcanedev/localization": "^6.2",
         "laravelcollective/html": "^6.0",
         "spatie/laravel-activitylog": "^3.9",
-        "spatie/laravel-permission": "^3.3"
+        "spatie/laravel-permission": "^3.3",
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-ide-helper": "^2.6"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
@@ -36,7 +38,6 @@
                 "BeWhy\\Genesis\\GenesisServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
             }
         }
     }
