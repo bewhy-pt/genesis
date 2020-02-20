@@ -12,7 +12,7 @@
                         <a href="{{ route('home') }}" class="nav-link @yield('nav-home')"><i class="fe fe-home"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('genesis') }}" class="nav-link @yield('nav-genesis')"><i class="fe fe-home"></i> Genesis</a>
+                        <a href="{{ route('genesis') }}" class="nav-link @yield('nav-genesis')"><i class="fe fe-package"></i> Genesis</a>
                     </li>
                 </ul>
             </div>

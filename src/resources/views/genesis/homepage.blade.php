@@ -1,6 +1,8 @@
 
 @extends('template::template.layout')
 
+@section('nav-home','active')
+
 @section('header-styles')
 <style>
 

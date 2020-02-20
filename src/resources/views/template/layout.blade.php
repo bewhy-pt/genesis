@@ -11,16 +11,18 @@
         <div class="page-main">
 
             @include('template::template.sections.header')
-            @include('template::template.sections.nav')
+            @auth
+                @include('template::template.sections.nav')
+            @endauth
 
             <div class="my-3 my-md-5">
                 <div class="container">
                     <div class="page-header">
+                        @include('template::template.errors.errors')
                         @yield('breadcrumbs')
                     </div>
                     <div class="row">
 
-                        @include('template::template.errors.errors')
 
                         @yield('main-content')
                     </div>

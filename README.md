@@ -1,5 +1,6 @@
 # BeWhy Genesis
-Hi,
+
+### Hi,
 
 "Jumping" cordialities, this git should **not** be *public*, but two decades of personal experience are culminating in this project experiment. Has a developer/analyst, which had the honor to initialize server**s**, and project's mentor, wanted to add that the main goal 
 is to design a code architecture, which will enable: 
@@ -18,8 +19,7 @@ We only got here with a lot of help from the *open-source* community, and as we 
 BeWhy, more then a company is an ideology, and Genesis is a commitment to a chosen path...
 
 
-
-## Getting Started
+### Getting Started
 It wasn't stated before, but Genesis is not a full-on WebFramework, we are not re-inventing the wheel in every front! We are just following several best practices in one full-stack "development-result" structure.
 
 At this point, you should understand that complete tutorial is at our homepage: [BeWhy Genesis](https://bewhy.org/genesis), but we only provide support to our corporate clients.
@@ -48,6 +48,23 @@ And you have your local server and composer updated...
 Ready, set, go???
 
 
+### Built With
+Before install, a reminder that you should always look at [BeWhy Genesis](https://bewhy.org/genesis) for latest update. 
+
+We need to reference the following amazing teams, for their code, inspiration and contribution to world's coding community. We hope we will be worthy on following your legacy and improve on it.
+For now all glory should go to:
+* [codecalm/tabler](https://github.com/tabler/tabler) - Bootstrap4 Template we build upon. 
+* [arcanedev/localization](https://github.com/ARCANEDEV/Localization) - Easy i18n localization for Laravel, an useful tool to combine with Laravel localization classes.
+* [laravelcollective/html](https://laravelcollective.com/docs/6.0/html) - Official documentation for Forms & Html for The Laravel Framework.
+* [spatie/laravel-activitylog](https://docs.spatie.be/laravel-activitylog/v3/introduction/) - Easy to use functions to log the activities of the users of your app.
+* [spatie/laravel-permission](https://docs.spatie.be/laravel-permission/v3/introduction/) - Manage user permissions and roles in a database.
+* [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Adds a cool bar to footer in dev environment with displays of Redirects and (jQuery) Ajax Requests and Queries and more.
+* [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - This package generates a file that your IDE understands, so it can provide accurate auto-completion. 
+* [intervention/image](http://image.intervention.io/) - Intervention Image is an open source PHP image handling and manipulation library.
+
+Under [Versioning](#versioning) chapter we will add some mode details to our actual code, but this thread is a special reference to those who deserve it.
+Next topic we will see how to install all this in a couple of simple step's, and we will dive into examples how to interact will Genesis.
+
 ### Installing
 Just start, a new Laravel Project... One way would be:
 ```
@@ -59,7 +76,7 @@ Run something like (depending on your SO, and prior configs)
 ```
     vagrant ssh    #connect to your server
     cd client      #go to you new project
-    composer require bewhy/genesis
+    composer require bewhy/genesis --dev
     composer update
 ```
 A huge log will ensure, it is importing Genesis, our code plus our requirements.... The *open-source* motive again! Just let it finish, hopefully everything ends in success, and we keep our bond of trust! 
@@ -79,22 +96,6 @@ So at this point, just head to you dev site, and look up how to end the installa
 
 
 
-## Built With
-After installation, and if you are reading this, a reminder that you should always look at [BeWhy Genesis](https://bewhy.org/genesis) for latest update. This type of files sometimes get lost over time and iterations.
-
-But we have to reference, at this point, which other decencies we are using by name, reference and glory:
-* [codecalm/tabler](https://codecalm.net/) - Bootstrap4 Template we build upon. 
-* [arcanedev/localization](https://github.com/ARCANEDEV/Localization) - Easy i18n localization for Laravel, an useful tool to combine with Laravel localization classes.
-* [laravelcollective/html](https://laravelcollective.com/docs/6.0/html) - Official documentation for Forms & Html for The Laravel Framework.
-* [spatie/laravel-activitylog](https://docs.spatie.be/laravel-activitylog/v3/introduction/) - Easy to use functions to log the activities of the users of your app.
-* [spatie/laravel-permission](https://docs.spatie.be/laravel-permission/v3/introduction/) - Manage user permissions and roles in a database.
-* [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) - Adds a cool bar to footer in dev environment with displays of Redirects and (jQuery) Ajax Requests and Queries and more.
-* [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) - This package generates a file that your IDE understands, so it can provide accurate auto-completion. 
-* [intervention/image](http://image.intervention.io/) - Intervention Image is an open source PHP image handling and manipulation library.
-
-Once again thank you to all this amazing teams, and more, for their code, inspiration and contribution to world's coding community. We know hope be worthy on following your legacy and improve on it.
-
-Under [Versioning](#versioning) chapter we will add some mode details to our actual code, but this thread is a special reference to those who deserve it.
 
 
 

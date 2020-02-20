@@ -1,44 +1,49 @@
-.bg-genesis {
+.bg-genesis,
+.header,
+footer,
+.avatar-genesis,
+.tag-genesis{
     background-color: #000000 !important;
+    color: #FFFFFF !important;
 }
-.text-genesis{
-    color: #000000 !important;
-}
-div.tag.genesis,
-.tag-genesis,
-button.genesis,
-button.btn-genesis,
-input.btn-genesis,
-input.genesis {
+.alert-genesis,
+.btn-genesis{
     color: #fff !important;
     background-color: #000000 !important;
     border-color: #000000 !important;
 }
-input.btn-genesis:hover,
-button.btn-genesis:hover,
-input.genesis:hover,
-button.genesis:hover {
+.btn-genesis:hover{
     color: #000000 !important;
     background-color: #fff !important;
     border-color: #000000 !important;
 }
-div.tag.genesis:hover{
-    border: 1px solid #000000 !important;
+.tag-genesis-reverse,
+.btn-genesis-reverse{
     color: #000000 !important;
     background-color: #fff !important;
+    border-color: #000000 !important;
 }
-.badge-genesis {
-    color: #fff;
-    background-color: #000000;
-}
-.header,
-footer{
+.btn-genesis-reverse:hover{
+    color: #fff !important;
     background-color: #000000 !important;
-    color: #FFFFFF;
+    border-color: #000000 !important;
 }
-.header .text-default {
-    color: #FFFFFF !important;
+.text-genesis{
+    color: #000000 !important;
 }
+.bg-transparent:focus,
+.bg-transparent:hover{
+   background-color: #dae0e5 !important;
+}
+.avatar-genesis-reverse{
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border: 1px solid #000000;
+}
+
 #headerMenuCollapse{
     background-color: #FFFFFF !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "\00b7";
 }

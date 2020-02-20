@@ -19,9 +19,7 @@
         "arcanedev/localization": "^6.2",
         "laravelcollective/html": "^6.0",
         "spatie/laravel-activitylog": "^3.9",
-        "spatie/laravel-permission": "^3.3",
-        "barryvdh/laravel-debugbar": "^3.2",
-        "barryvdh/laravel-ide-helper": "^2.6"
+        "spatie/laravel-permission": "^3.3"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
@@ -30,6 +28,11 @@
     "autoload": {
         "psr-4": {
             "BeWhy\\Genesis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+
         }
     },
     "extra": {
