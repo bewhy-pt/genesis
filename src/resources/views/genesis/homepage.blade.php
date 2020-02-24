@@ -34,11 +34,11 @@
         <div class="content ">
             <div class="alert alert-icon alert-warning alert-dismissible" role="alert">
                 <button type="button" class="close" data-dismiss="alert"></button>
-                <i class="fe fe-alert-triangle mr-2" aria-hidden="true"></i> Começamos a ver as diferenças?
+                <i class="fe fe-alert-triangle mr-2" aria-hidden="true"></i> @lang('translation::genesis.main.home-test')
             </div>
 
             <div class="title m-b-md">
-                Laravel
+                Laravel + Genesis
             </div>
 
             <div class="links">

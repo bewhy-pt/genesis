@@ -2,7 +2,7 @@
     "name": "bewhy/genesis",
     "description": "If Laravel 6.x starting point had a full extra-stack and was a CMS-Shop alike",
     "authors": [{
-        "name": "WannaBe",
+        "name": "BeWhy WhyBe",
         "email": "dev@bewhy.org",
         "homepage": "https://bewhy.org/genesis",
         "role": "Idiot In Chief"
@@ -32,16 +32,47 @@
     },
     "autoload-dev": {
         "psr-4": {
-
+            "BeWhy\\Genesis\\": "src/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.5"
+        },
         "laravel": {
             "providers": [
                 "BeWhy\\Genesis\\GenesisServiceProvider"
             ],
             "aliases": {
+                "Localization" : "Arcanedev\\Localization\\Localization"
             }
         }
+    },
+    "scripts": {
+        "install-genesis" : [
+            "@php echo \"install-genesis\""
+        ],
+        "post-update-cmd": [
+            "@php echo \"post-update-cmd\"",
+            "BeWhy\\Genesis\\Genesis::postUpdate"
+        ],
+        "post-package-install": [
+            "@php echo \"post-package-install\"",
+            "BeWhy\\Genesis\\Genesis::postPackageInstall"
+        ],
+        "post-install-cmd": [
+            "@php echo \"post-install-cmd\"",
+            "BeWhy\\Genesis\\Genesis::warmCache"
+        ],
+        "post-autoload-dump": [
+            "@php echo \"post-install-cmd\"",
+            "BeWhy\\Genesis\\Genesis::postAutoloadDump"
+        ],
+        "post-create-project-cmd": [
+            "@php echo \"post-create-project-cmd\""
+        ]
     }
+
 }

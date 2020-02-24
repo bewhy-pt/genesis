@@ -9839,7 +9839,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table, .text-wrap table {
     border-collapse: collapse !important;
   }
-  
+
   .table td,
   .text-wrap table td, .table th, .text-wrap table th {
     background-color: #fff !important;
@@ -16575,6 +16575,10 @@ a.tag-addon:hover {
 
 .flag-zw {
   background-image: url("../images/flags/zw.svg");
+}
+
+.flag-en {
+    background-image: url("../images/flags/en.svg");
 }
 
 .payment {

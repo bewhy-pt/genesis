@@ -14,24 +14,28 @@ class GenesisController extends Controller {
     }
 
     public function docs(){
-        return view('template::genesis.pages.docs.index');
+        return view('template::genesis.docs.index');
     }
 
     public function install(){
-        return view('template::genesis.pages.docs.install');
+        return view('template::genesis.docs.install');
+    }
+
+    public function whatsNew(){
+        return view('template::genesis.docs.new');
     }
 
     public function rules(){
-        return view('template::genesis.pages.docs.rules');
+        return view('template::genesis.docs.rules');
     }
 
     public function contributions(){
         //TODO only auth
-        return view('template::genesis.pages.docs.contributions');
+        return view('template::genesis.docs.contributions');
     }
 
     public function more(){
-        return view('template::genesis.pages.docs.more');
+        return view('template::genesis.docs.more');
     }
 
 }

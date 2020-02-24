@@ -14,7 +14,7 @@
     <link rel="icon" href="" type="image/x-icon"/>
     <link rel="shortcut icon" type="image/x-icon" href="" />
 
-    <title>Genesis @yield('page-title')</title>
+    <title>{{ config('app.name') }} @yield('page-title')</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext" />
